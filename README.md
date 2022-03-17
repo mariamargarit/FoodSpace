@@ -1,4 +1,5 @@
-![logo](https://user-images.githubusercontent.com/81814653/158791329-fb591ec0-f61f-49c2-a7fa-da90d352bba2.svg)
+![logo](https://user-images.githubusercontent.com/81814653/158792605-a3b354c5-6f19-4aa7-ae3e-e1a62ab9125a.svg)
+
 # FoodSpace
 
 A web application that helps people choose a restaurant
