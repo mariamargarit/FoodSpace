@@ -16,4 +16,4 @@ Frontend: ReactJS
 
 Backend: Node.js
 
-Databases: SQL
+Databases: MySQL
