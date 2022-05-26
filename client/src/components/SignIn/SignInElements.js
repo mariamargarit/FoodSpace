@@ -13,7 +13,7 @@ export const Container = styled.div`
     background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%), 
                 linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
     z-index: 2;
-  }
+
 `
 
 export const FormWrap = styled.div`
@@ -33,7 +33,7 @@ export const Icon = styled(LinkR)`
     text-decoration: none;
     color: #fff;
     font-weight: 700;
-    font-sze: 32px;
+    font-size: 32px;
     
     @media screen and (max-width: 480px) {
         margin-left: 16px;
