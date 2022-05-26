@@ -1,9 +1,14 @@
 import React from 'react';
 import {Container, Form, FormContent, FormH1, FormInput, FormLabel, FormWrap, Text, Icon, FormButton} from "./SignInElements";
+import Background from '../../assets/restaurant_bg.png'
+import {HeroBg, ImageBg} from "../HeroSection/HeroElements";
 
 const SignIn = () => {
     return (
         <>
+            <HeroBg>
+                <ImageBg src={Background}/>
+            </HeroBg>
             <Container>
                 <FormWrap>
                     <Icon to="/">FoodSpace</Icon>
