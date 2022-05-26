@@ -7,6 +7,7 @@ export const Nav = styled.nav`
     height: 80px;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 1rem;
     position: sticky;
     top: 0;
@@ -33,7 +34,7 @@ export const NavLogo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: -100px;
+    margin-left: -30px;
     font-weight: bold;
     text-decoration: none;
 
@@ -62,7 +63,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: 52px;
+    margin-right: -35px;
 
     @media screen and (max-width: 768px) {
         display:none;
