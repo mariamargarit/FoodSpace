@@ -8,10 +8,15 @@ export const Nav = styled.nav`
     margin-top: -80px;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 1rem;
     position: sticky;
     top: 0;
     z-index: 10;
+
+    @media screen and (max-width: 960px) {
+        transition: 0.8s all ease;
+    }
 `
 export const NavbarContainer = styled.div`
     display: flex;
@@ -30,7 +35,7 @@ export const NavLogo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: -100px;
+    margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
 

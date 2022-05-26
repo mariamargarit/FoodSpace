@@ -12,7 +12,7 @@ const Navbar = ({toggle}) => {
                   <FaBars />
                 </Icon>
                 <NavMenu>
-                <NavItem>
+                  <NavItem>
                     <NavLinks to="home">Home</NavLinks>
                   </NavItem>
                   <NavItem>
