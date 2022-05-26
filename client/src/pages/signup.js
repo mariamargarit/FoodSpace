@@ -1,8 +1,11 @@
 import React from 'react'
+import SignUp from '../components/SignUp';
 
 const SignUpPage = () => {
   return (
-    <h1>SignupPage</h1>
+    <>
+      <SignUp />
+    </>
   )
 }
 

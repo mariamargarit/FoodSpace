@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {Link as LinkR} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
   min-height: 692px;
@@ -104,4 +105,12 @@ export const Text = styled.span`
   margin-top: 24px;
   color: #fff;
   font-size: 14px;
+`
+
+export const SigninLink = styled(Link)`
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 24px;
+  padding-left: 5px;
 `

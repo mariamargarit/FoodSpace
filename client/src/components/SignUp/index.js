@@ -1,9 +1,9 @@
 import React from 'react';
-import {Container, Form, FormContent, FormH1, FormInput, FormLabel, FormWrap, Text, Icon, FormButton} from "./SignInElements";
+import {Container, Form, FormContent, FormH1, FormInput, FormLabel, FormWrap, Text, Icon, FormButton, SigninLink} from "./SignUpElements";
 import Background from '../../assets/restaurant_bg.png'
 import {HeroBg, ImageBg} from "../HeroSection/HeroElements";
 
-const SignIn = () => {
+const SignUp = () => {
   return (
     <>
       <HeroBg>
@@ -14,13 +14,17 @@ const SignIn = () => {
           <Icon to="/">FoodSpace</Icon>
             <FormContent>
               <Form action="#">
-                <FormH1>Sign In to your account</FormH1>
+                <FormH1>Create your account</FormH1>
                 <FormLabel htmlFor='for'>Email</FormLabel>
                 <FormInput type='email' required />
                 <FormLabel htmlFor='for'>Password</FormLabel>
                 <FormInput type='password' required />
+                <FormLabel htmlFor='for'>Confirm Password</FormLabel>
+                <FormInput type='password' required />
                 <FormButton type='submit'>Continue</FormButton>
-                <Text>Forgot password</Text>
+                <Text>Already have an Account?
+                  <SigninLink id='Links-signin' to='/signin'>Sign In</SigninLink>   
+                </Text> 
               </Form>
             </FormContent>
       </FormWrap>
@@ -29,4 +33,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default SignUp;
