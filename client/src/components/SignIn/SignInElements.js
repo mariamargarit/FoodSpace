@@ -10,11 +10,10 @@ export const Container = styled.div`
     top: 0;
     z-index: 0;
     overflow: hidden;
-    background: linear-gradient(
-        108deg,
-        rgba(1, 147, 86, 1) 0%,
-        rgba( 10, 201, 122, 1) 100%
-       );
+    background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%), 
+                linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+    z-index: 2;
+
 `
 
 export const FormWrap = styled.div`
@@ -92,11 +91,11 @@ export const FormInput = styled.input`
 `
 
 export const FormButton = styled.button`
-    background: #01bf71;
+    background: #add8e6;
     padding: 16px 0;
     border: none;
     border-radius: 4px;
-    color: #fff;
+    color: 010606;
     font-size: 20px;
     cursor:pointer;
 `
