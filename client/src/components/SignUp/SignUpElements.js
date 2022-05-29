@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import {Link as LinkR} from 'react-router-dom'
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 export const Container = styled.div`
   min-height: 692px;
@@ -33,7 +33,7 @@ export const Icon = styled(LinkR)`
   text-decoration: none;
   color: #fff;
   font-weight: 700;
-  font-size: 32px;
+  font-sze: 32px;
   
   @media screen and (max-width: 480px) {
       margin-left: 16px;
@@ -95,7 +95,7 @@ export const FormButton = styled.button`
   padding: 16px 0;
   border: none;
   border-radius: 4px;
-  color: #fff;
+  color: #010606;
   font-size: 20px;
   cursor:pointer;
 `
