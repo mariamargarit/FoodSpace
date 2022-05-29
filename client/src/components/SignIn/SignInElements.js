@@ -100,7 +100,7 @@ export const FormButton = styled.button`
     cursor:pointer;
 `
 
-export const Text = styled.span`
+export const Text = styled.span`        
     text-align: center;
     margin-top: 24px;
     color: #fff;
