@@ -5,7 +5,7 @@ import Home from './pages';
 import SignInPage from "./pages/signin";
 import SignUpPage from "./pages/signup";
 
-// import Navbar from "./components/Navbar";
+//import Navbar from "./components/Navbar";
 
 function App() {
     return (
