@@ -95,12 +95,12 @@ export const FormButton = styled.button`
     padding: 16px 0;
     border: none;
     border-radius: 4px;
-    color: 010606;
+    color: #010606;
     font-size: 20px;
     cursor:pointer;
 `
 
-export const Text = styled.span`
+export const Text = styled.span`        
     text-align: center;
     margin-top: 24px;
     color: #fff;

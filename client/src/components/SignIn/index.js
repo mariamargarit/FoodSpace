@@ -50,14 +50,14 @@ const SignIn = () => {
                             <FormLabel htmlFor='for'>Email</FormLabel>
                             <FormInput
                                 type='email' required
-                                onChange = {(e) => {
+                                onChange={(e) => {
                                     setUsername(e.target.value);
                                 }}
                             />
                             <FormLabel htmlFor='for'>Password</FormLabel>
                             <FormInput
                                 type='password' required
-                                onChange = {(e) => {
+                                onChange={(e) => {
                                     setPassword(e.target.value);
                                 }}
                             />
