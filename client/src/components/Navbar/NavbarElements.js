@@ -7,15 +7,10 @@ export const Nav = styled.nav`
     height: 80px;
     display: flex;
     justify-content: center;
-    align-items: center;
     font-size: 1rem;
     position: sticky;
     top: 0;
     z-index: 10;
-
-    @media screen and (max-width: 960px) {
-        transition: 0.8 all ease;
-    }
 `
 export const NavbarContainer = styled.div`
     display: flex;
@@ -34,7 +29,7 @@ export const NavLogo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: -30px;
+    margin-left: -100px;
     font-weight: bold;
     text-decoration: none;
 
@@ -63,7 +58,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -35px;
+    margin-right: 52px;
 
     @media screen and (max-width: 768px) {
         display:none;
