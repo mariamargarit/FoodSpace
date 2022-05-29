@@ -1,31 +1,33 @@
 const express = require('express');
 const mysql = require('mysql');
+const cors = require('cors');
 
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 
 const db = mysql.createConnection({
     user: 'root',
     host: 'localhost',
     password: 'password',
-    database: 'LoginSystem',
+    database: 'loginsystem',
 });
 
-// app.post('/register', (req, res) => {
-//     const username = req.body.username;
-//     const password = req.body.password;
-//
-//     db.query(
-//         'INSERT INTO users (username, password) VALUES (?,?)',
-//         [username, password],
-//         (err, result) => {
-//             console.log(err);
-//         }
-//     );
-// });
+app.post('/register', (req, res) => {
+    const username = req.body.username;
+    const password = req.body.password;
 
-app.post('/signin', (req, res) => {
+    db.query(
+        'INSERT INTO users (username, password) VALUES (?,?)',
+        [username, password],
+        (err, result) => {
+            console.log(err);
+        }
+    );
+});
+
+app.post('/login', (req, res) => {
     const username = req.body.username;
     const password = req.body.password;
 
@@ -37,7 +39,7 @@ app.post('/signin', (req, res) => {
                 res.send({err: err});
             }
 
-            if(result) {
+            if(result.length > 0) {
                 res.send(result);
             } else {
                 res.send({message: 'Wrong email/password combination!'});
