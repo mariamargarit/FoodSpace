@@ -13,13 +13,13 @@ const Navbar = ({toggle}) => {
                     </Icon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="home">Home</NavLinks>
-                        </NavItem>
-                        <NavItem>
                             <NavLinks to="about">About</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="signup">Sign Up</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="discover">Discover</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
