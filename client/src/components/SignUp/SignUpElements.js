@@ -1,6 +1,6 @@
-import styled from 'styled-components'
-import {Link as LinkR} from 'react-router-dom'
-import {Link} from 'react-router-dom'
+import styled from "styled-components";
+import { Link as LinkR } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   min-height: 692px;
@@ -11,21 +11,25 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%), 
-              linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
   z-index: 2;
-`
+`;
 
 export const FormWrap = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   @media screen and (max-width: 400px) {
-      height: 80%;
+    height: 80%;
   }
-`
+`;
 
 export const Icon = styled(LinkR)`
   margin-left: 32px;
@@ -34,23 +38,23 @@ export const Icon = styled(LinkR)`
   color: #fff;
   font-weight: 700;
   font-sze: 32px;
-  
+
   @media screen and (max-width: 480px) {
-      margin-left: 16px;
-      margin-top: 8x;
+    margin-left: 16px;
+    margin-top: 8x;
   }
-`
+`;
 
 export const FormContent = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   @media screen and (max-width: 480px) {
-      padding: 10px;
+    padding: 10px;
   }
-`
+`;
 
 export const Form = styled.form`
   background: #010101;
@@ -65,9 +69,9 @@ export const Form = styled.form`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
   @media screen and (max-width: 400px) {
-      padding: 32px 32px;
+    padding: 32px 32px;
   }
-`
+`;
 
 export const FormH1 = styled.h1`
   margin-bottom: 40px;
@@ -75,20 +79,20 @@ export const FormH1 = styled.h1`
   font-size: 20px;
   font-weight: 400;
   text-align: center;
-`
+`;
 
 export const FormLabel = styled.label`
   margin-bottom: 8px;
   color: #fff;
   font-size: 14px;
-`
+`;
 
 export const FormInput = styled.input`
   padding: 16px 16px;
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
-`
+`;
 
 export const FormButton = styled.button`
   background: #add8e6;
@@ -97,15 +101,15 @@ export const FormButton = styled.button`
   border-radius: 4px;
   color: #010606;
   font-size: 20px;
-  cursor:pointer;
-`
+  cursor: pointer;
+`;
 
 export const Text = styled.span`
   text-align: center;
   margin-top: 24px;
   color: #fff;
   font-size: 14px;
-`
+`;
 
 export const SigninLink = styled(Link)`
   color: #fff;
@@ -113,4 +117,4 @@ export const SigninLink = styled(Link)`
   font-size: 14px;
   margin-top: 24px;
   padding-left: 5px;
-`
+`;
