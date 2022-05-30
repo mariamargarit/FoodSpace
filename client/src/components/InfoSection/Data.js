@@ -12,27 +12,31 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-  id: 'discover',
+  id: 'signup',
   lightBg: true,
   lightText: false,
   darkText: true,
-  topLine: 'Personalized results',
-  headline: 'Make the first step in your order process',
-  description: 'Get your answer in minutes from our extended list',
-  imgStart: true,
-  img: require('../../assets/svg-2.svg').default,
-  alt: 'People Talking',
-}
-
-export const homeObjThree = {
-  id: 'signup',
-  lightBg: false,
-  lightText: true,
-  darkText: false,
-  topLine: 'Sign up',
+  topLine: 'Join us',
   headline: 'Creating an account is extremely easy',
   description: "Get everything set up and ready in under 5 minutes. All you need to do is add your information and you're ready to go.",
   imgStart: true,
   img: require('../../assets/svg-3.svg').default,
   alt: 'Verification',
+  dark: true,
+  primary: true,
+  dark2: false,
+  buttonLabel: 'Sign up'
+}
+
+export const homeObjThree = {
+  id: 'discover',
+  lightBg: false,
+  lightText: true,
+  darkText: false,
+  topLine: 'Personalized results',
+  headline: 'Make the first step in your order process',
+  description: 'Get your answer in minutes from our extended list',
+  imgStart: false,
+  img: require('../../assets/svg-2.svg').default,
+  alt: 'People talking',
 }

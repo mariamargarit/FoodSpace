@@ -72,6 +72,12 @@ export const Heading = styled.h1`
   }
 `;
 
+export const BtnWrap = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  color: ${({dark}) => (dark ? '#f7fafa' : '#010606')};
+`
+
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
