@@ -23,3 +23,16 @@ export const homeObjTwo = {
   img: require('../../assets/svg-2.svg').default,
   alt: 'People Talking',
 }
+
+export const homeObjThree = {
+  id: 'signup',
+  lightBg: false,
+  lightText: true,
+  darkText: false,
+  topLine: 'Sign up',
+  headline: 'Creating an account is extremely easy',
+  description: "Get everything set up and ready in under 5 minutes. All you need to do is add your information and you're ready to go.",
+  imgStart: true,
+  img: require('../../assets/svg-3.svg').default,
+  alt: 'Verification',
+}
