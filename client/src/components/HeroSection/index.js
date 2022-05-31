@@ -10,7 +10,7 @@ import {
     ArrowForward,
     ArrowRight
 } from './HeroElements'
-import Background from '../../assets/restaurant_bg.png'
+import Background from '../../assets/images/restaurant_bg.png'
 import {Button} from '../ButtonElement'
 
 const HeroSection = () => {

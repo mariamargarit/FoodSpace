@@ -12,7 +12,7 @@ import {
   FormButton,
   SigninLink,
 } from "./SignUpElements";
-import Background from "../../assets/restaurant_bg.png";
+import Background from "../../assets/images/restaurant_bg.png";
 import { HeroBg, ImageBg } from "../HeroSection/HeroElements";
 import Axios from "axios";
 

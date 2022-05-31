@@ -11,7 +11,7 @@ import {
     Icon,
     FormButton
 } from "./SignInElements";
-import Background from '../../assets/restaurant_bg.png'
+import Background from '../../assets/images/restaurant_bg.png'
 import {HeroBg, ImageBg} from "../HeroSection/HeroElements";
 import Axios from 'axios'
 
