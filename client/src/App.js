@@ -8,6 +8,8 @@ import StarterQuestionPage from "./pages/starterquestion";
 import VegDietPage from "./pages/vegdiettype";
 import VegetarianBudgetPage from "./pages/vegetarianbudget";
 import VeganBudgetPage from "./pages/veganbudget";
+import BrokeVegetarianMealPage from "./pages/brokevegetarianmeal";
+import RichVegetarianMealPage from "./pages/richvegetarianmeal";
 
 //import Navbar from "./components/Navbar";
 
@@ -23,6 +25,9 @@ function App() {
                 <Route path='/vegdiet' element={<VegDietPage/>} exact/>
                 <Route path='/vegetarianbudget' element={<VegetarianBudgetPage/>} exact/>
                 <Route path='/veganbudget' element={<VeganBudgetPage/>} exact/>
+                <Route path='/brokevegetarian' element={<BrokeVegetarianMealPage/>} exact/>
+                <Route path='/richvegetarian' element={<RichVegetarianMealPage/>} exact/>
+
             </Routes>
         </Router>
     );
