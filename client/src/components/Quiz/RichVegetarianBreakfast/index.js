@@ -1,7 +1,7 @@
 import React from 'react'
-import { PageWrapper, Button1, ButtonWrapper, Texth1 } from './BVBElements'
+import { PageWrapper, Button1, ButtonWrapper, Texth1 } from '../BrokeVeganBreakfast/BVBElements'
 
-const BrokeVeganBreakfast = () => {
+const RichVegeterianBreakfast = () => {
   return (
     <>
       <PageWrapper>
@@ -17,4 +17,4 @@ const BrokeVeganBreakfast = () => {
   )
 }
 
-export default BrokeVeganBreakfast
+export default RichVegeterianBreakfast

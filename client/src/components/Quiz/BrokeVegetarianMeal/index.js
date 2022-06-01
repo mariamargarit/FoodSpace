@@ -1,5 +1,5 @@
 import React from 'react'
-import { PageWrapper, Button1, ButtonWrapper, Texth1, TextSpan } from './BVMElements'
+import { PageWrapper, Button1, ButtonWrapper, Texth1 } from './BVMElements'
 
 const BrokeVegetarianMeal = () => {
   return (

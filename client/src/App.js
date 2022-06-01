@@ -12,6 +12,10 @@ import BrokeVegetarianMealPage from "./pages/brokevegetarianmeal";
 import RichVegetarianMealPage from "./pages/richvegetarianmeal";
 import BrokeVeganMealPage from "./pages/brokeveganmeal";
 import RichVeganMealPage from "./pages/richveganmeal";
+import BrokeVegetarianBreakfastPage from "./pages/brokevegetarianbreakfast";
+import RichVegetarianBreakfastPage from "./pages/richvegetarianbreakfast";
+import BrokeVeganBreakfastPage from "./pages/brokeveganbreakfast";
+import RichVeganBreakfastPage from "./pages/richveganbreakfast";
 
 //import Navbar from "./components/Navbar";
 
@@ -30,7 +34,11 @@ function App() {
                 <Route path='/brokevegetarian' element={<BrokeVegetarianMealPage/>} exact/>
                 <Route path='/richvegetarian' element={<RichVegetarianMealPage/>} exact/>
                 <Route path='/brokevegan' element={<BrokeVeganMealPage/>} exact/>
-                <Route path='/richvegan' element={<RichVeganMealPage    />} exact/>
+                <Route path='/richvegan' element={<RichVeganMealPage/>} exact/>
+                <Route path='/brokevegetarianbreakfast' element={<BrokeVegetarianBreakfastPage/>} exact/>
+                <Route path='/richvegetarianbreakfast' element={<RichVegetarianBreakfastPage/>} exact/>
+                <Route path='/brokeveganbreakfast' element={<BrokeVeganBreakfastPage/>} exact/>
+                <Route path='/richveganbreakfast' element={<RichVeganBreakfastPage/>} exact/>
 
             </Routes>
         </Router>

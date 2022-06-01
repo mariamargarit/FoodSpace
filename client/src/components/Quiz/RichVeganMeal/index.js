@@ -1,5 +1,5 @@
 import React from 'react'
-import { PageWrapper, Button1, ButtonWrapper, Texth1, TextSpan } from './RVMElements'
+import { PageWrapper, Button1, ButtonWrapper, Texth1 } from './RVMElements'
 
 const RichVeganMeal = () => {
   return (
