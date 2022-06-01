@@ -6,6 +6,8 @@ import SignInPage from "./pages/signin";
 import SignUpPage from "./pages/signup";
 import StarterQuestionPage from "./pages/starterquestion";
 import VegDietPage from "./pages/vegdiettype";
+import VegetarianBudgetPage from "./pages/vegetarianbudget";
+import VeganBudgetPage from "./pages/veganbudget";
 
 //import Navbar from "./components/Navbar";
 
@@ -19,6 +21,8 @@ function App() {
                 <Route path='/signup' element={<SignUpPage/>} exact/>
                 <Route path='/starterquestion' element={<StarterQuestionPage/>} exact/>
                 <Route path='/vegdiet' element={<VegDietPage/>} exact/>
+                <Route path='/vegetarianbudget' element={<VegetarianBudgetPage/>} exact/>
+                <Route path='/veganbudget' element={<VeganBudgetPage/>} exact/>
             </Routes>
         </Router>
     );

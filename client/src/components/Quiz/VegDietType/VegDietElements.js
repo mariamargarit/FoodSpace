@@ -87,4 +87,8 @@ export const Button1 = styled.a`
       opacity: 1;
     }
   }
+  &:link { text-decoration: none; }
+  &:visited { text-decoration: none; }
+  &:hover { text-decoration: none; }
+  &:active { text-decoration: none; }
 `
