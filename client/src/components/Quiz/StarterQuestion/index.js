@@ -15,7 +15,7 @@ const StarterQuestion = () => {
           }}
         />
       <ButtonContainer>
-        <Button1>Yes</Button1>
+        <Button1 href="/meattype">Yes</Button1>
         <Button1 href="/vegdiet">No</Button1>
       </ButtonContainer>
       </StarterText>

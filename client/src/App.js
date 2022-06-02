@@ -6,6 +6,7 @@ import SignInPage from "./pages/signin";
 import SignUpPage from "./pages/signup";
 import StarterQuestionPage from "./pages/starterquestion";
 import VegDietPage from "./pages/vegdiettype";
+import MeatPage from "./pages/meattype";
 import VegetarianBudgetPage from "./pages/vegetarianbudget";
 import VeganBudgetPage from "./pages/veganbudget";
 import BrokeVegetarianMealPage from "./pages/brokevegetarianmeal";
@@ -29,6 +30,7 @@ function App() {
                 <Route path='/signup' element={<SignUpPage/>} exact/>
                 <Route path='/starterquestion' element={<StarterQuestionPage/>} exact/>
                 <Route path='/vegdiet' element={<VegDietPage/>} exact/>
+                <Route path='/meattype' element={<MeatPage/>} exact/>
                 <Route path='/vegetarianbudget' element={<VegetarianBudgetPage/>} exact/>
                 <Route path='/veganbudget' element={<VeganBudgetPage/>} exact/>
                 <Route path='/brokevegetarian' element={<BrokeVegetarianMealPage/>} exact/>
