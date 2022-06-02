@@ -7,17 +7,17 @@ const BrokeVegetarianLunch = () => {
       <PageWrapper>
         <Texth1>Which of these dishes do you prefer?</Texth1>
         <ButtonWrapper>
-          <Button1 href="/brokevegetarianbreakfast">Kebab</Button1>
-          <Button1 href="/brokevegetarianlunch" style={{'animation-delay':'0.07s'}}>Sharoma</Button1>
-          <Button1 href="/brokevegetariandessert" style={{'animation-delay':'0.14s'}}>Salad</Button1>
-          <Button1 href="/brokevegetariandessert" style={{'animation-delay':'0.21s'}}>Poke Bowl</Button1>
-          <Button1 href="/brokevegetariandessert" style={{'animation-delay':'0.28s'}}>Soup</Button1>
-          <Button1 href="/brokevegetariandessert" style={{'animation-delay':'0.35s'}}>Sandwich</Button1>
-          <Button1 href="/brokevegetariandessert" style={{'animation-delay':'0.42s'}}>Burger</Button1>
-          <Button1 href="/brokevegetariandessert" style={{'animation-delay':'0.49s'}}>Veggie Noodles</Button1>
-          <Button1 href="/brokevegetariandessert" style={{'animation-delay':'0.56s'}}>Falafel and hummus</Button1>
-          <Button1 href="/brokevegetariandessert" style={{'animation-delay':'0.63s'}}>Quesadilla</Button1>
-          <Button1 href="/brokevegetariandessert" style={{'animation-delay':'0.70s'}}>Pizza</Button1>
+          <Button1 href="/freshkebab">Kebab</Button1>
+          <Button1 href="/freshshaorma" style={{'animation-delay':'0.07s'}}>Sharoma</Button1>
+          <Button1 href="/salatacartofi" style={{'animation-delay':'0.14s'}}>Salad</Button1>
+          <Button1 href="/veggiebowl" style={{'animation-delay':'0.21s'}}>Poke Bowl</Button1>
+          <Button1 href="/ciorbaquinoa" style={{'animation-delay':'0.28s'}}>Soup</Button1>
+          <Button1 href="/veggiedelite" style={{'animation-delay':'0.35s'}}>Sandwich</Button1>
+          <Button1 href="/burgervegetarian" style={{'animation-delay':'0.42s'}}>Burger</Button1>
+          <Button1 href="/taiteigrau" style={{'animation-delay':'0.49s'}}>Veggie Noodles</Button1>
+          <Button1 href="/falafel" style={{'animation-delay':'0.56s'}}>Falafel and hummus</Button1>
+          <Button1 href="/quesadilla" style={{'animation-delay':'0.63s'}}>Quesadilla</Button1>
+          <Button1 href="/pizzamargerita" style={{'animation-delay':'0.70s'}}>Pizza</Button1>
         </ButtonWrapper>
       </PageWrapper>
     </>

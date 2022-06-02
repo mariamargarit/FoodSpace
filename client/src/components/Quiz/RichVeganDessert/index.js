@@ -7,10 +7,10 @@ const RichVeganDessert= () => {
       <PageWrapper>
         <Texth1 data-heading="Which of these dishes do you prefer?">Which of these dishes do you prefer?</Texth1>
         <ButtonWrapper>
-          <Button1 href="/brokevegetarianbreakfast">Ice cream</Button1>
-          <Button1 href="/brokevegetarianlunch">Pancake</Button1>
-          <Button1 href="/brokevegetariandessert">Fruit Cup</Button1>
-          <Button1 href="/brokevegetariandessert">Cake</Button1>
+          <Button1 href="/ciocovega">Ice cream</Button1>
+          <Button1 href="/clatite">Pancake</Button1>
+          <Button1 href="/sweetrefresh">Fruit Cup</Button1>
+          <Button1 href="/tort">Cake</Button1>
         </ButtonWrapper>
       </PageWrapper>
     </>

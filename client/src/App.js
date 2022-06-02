@@ -24,6 +24,13 @@ import BrokeVegetarianDessertPage from "./pages/brokevegetariandessert";
 import RichVegetarianDessertPage from "./pages/richvegetariandessert";
 import BrokeVeganDessertPage from "./pages/brokevegandessert";
 import RichVeganDessertPage from "./pages/richvegandessert";
+import SalataCartofiPage from "./pages/results/salatacartofi";
+import SalataVeggiePage from "./pages/results/salataveggie";
+import SalataRadacinoasePage from "./pages/results/salataradacinoase";
+import SalataGreceascaPage from "./pages/results/salatagreceasca";
+import ApplePiePage from "./pages/results/applepie";
+import AcaiSmoothiePage from "./pages/results/acaismoothie";
+import CauliflowerHummusPage from "./pages/results/cauliflowerhummus";
 
 //import Navbar from "./components/Navbar";
 
@@ -55,6 +62,13 @@ function App() {
                 <Route path='/richvegetariandessert' element={<RichVegetarianDessertPage/>} exact/>
                 <Route path='/brokevegandessert' element={<BrokeVeganDessertPage/>} exact/>
                 <Route path='/richvegandessert' element={<RichVeganDessertPage/>} exact/>
+                <Route path='/salatacartofi' element={<SalataCartofiPage/>} exact/>
+                <Route path='/salataveggie' element={<SalataVeggiePage/>} exact/>
+                <Route path='/salataradacinoase' element={<SalataRadacinoasePage/>} exact/>
+                <Route path='/salatagreceasca' element={<SalataGreceascaPage/>} exact/>
+                <Route path='/applepie' element={<ApplePiePage/>} exact/>
+                <Route path='/acaismoothie' element={<AcaiSmoothiePage/>} exact/>
+                <Route path='/cauliflowerhummus' element={<CauliflowerHummusPage/>} exact/>
 
             </Routes>
         </Router>
