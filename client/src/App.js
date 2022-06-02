@@ -17,6 +17,33 @@ import BrokeVegetarianBreakfastPage from "./pages/brokevegetarianbreakfast";
 import RichVegetarianBreakfastPage from "./pages/richvegetarianbreakfast";
 import BrokeVeganBreakfastPage from "./pages/brokeveganbreakfast";
 import RichVeganBreakfastPage from "./pages/richveganbreakfast";
+import RedBudgetPage from "./pages/redbuget";
+import PoultryBudgetPage from "./pages/poultrybuget";
+import SeaBudgetPage from "./pages/seabudget";
+import BrokeRedPage from "./pages/brokered";
+import RichRedPage from "./pages/richred";
+import BrokePoultryPage from "./pages/brokepoultry";
+import RichPoultryPage from "./pages/richpoultry";
+import BrokeSeaPage from "./pages/brokesea";
+import RichSeaPage from "./pages/richsea";
+import BrokeRedBreakPage from "./pages/brokeredbreak";
+import RichRedBreakPage from "./pages/richredbreak";
+import RichSeaBreakPage from "./pages/richseabreak";
+import BrokeSeaBreakPage from "./pages/brokeseabreak";
+import BrokePoultryBreakPage from "./pages/brokepoultrybreak";
+import RichPoultryBreakPage from "./pages/richpoultrybreak";
+import BrokeRedLunchPage from "./pages/brokeredlunch";
+import RichRedLunchPage from "./pages/richredlunch";
+import BrokePoultryLunchPage from "./pages/brokepoultrylunch";
+import RichPoultryLunchPage from "./pages/richpoultrylunch";
+import BrokeSeaLunchPage from "./pages/brokesealunch";
+import RichSeaLunchPage from "./pages/richsealunch";
+import BrokeRedDinnerPage from "./pages/brokereddinner";
+import RichRedDinnerPage from "./pages/richreddinner";
+import BrokePoultryDinnerPage from "./pages/brokepoultrydinner";
+import RichPoultryDinnerPage from "./pages/richpoultrydinner";
+import BrokeSeaDinnerPage from "./pages/brokeseadinner";
+import RichSeaDinnerPage from "./pages/richseadinner";
 
 //import Navbar from "./components/Navbar";
 
@@ -33,15 +60,41 @@ function App() {
                 <Route path='/meattype' element={<MeatPage/>} exact/>
                 <Route path='/vegetarianbudget' element={<VegetarianBudgetPage/>} exact/>
                 <Route path='/veganbudget' element={<VeganBudgetPage/>} exact/>
+                <Route path='/redbudget' element={<RedBudgetPage/>} exact/>
+                <Route path='/poultrybudget' element={<PoultryBudgetPage/>} exact/>
+                <Route path='/seabudget' element={<SeaBudgetPage/>} exact/>
                 <Route path='/brokevegetarian' element={<BrokeVegetarianMealPage/>} exact/>
                 <Route path='/richvegetarian' element={<RichVegetarianMealPage/>} exact/>
                 <Route path='/brokevegan' element={<BrokeVeganMealPage/>} exact/>
                 <Route path='/richvegan' element={<RichVeganMealPage/>} exact/>
+                <Route path='/brokered' element={<BrokeRedPage/>} exact/>
+                <Route path='/richred' element={<RichRedPage/>} exact/>
+                <Route path='/brokepoultry' element={<BrokePoultryPage/>} exact/>
+                <Route path='/richpoultry' element={<RichPoultryPage/>} exact/>
+                <Route path='/brokesea' element={<BrokeSeaPage/>} exact/>
+                <Route path='/richsea' element={<RichSeaPage/>} exact/>
                 <Route path='/brokevegetarianbreakfast' element={<BrokeVegetarianBreakfastPage/>} exact/>
                 <Route path='/richvegetarianbreakfast' element={<RichVegetarianBreakfastPage/>} exact/>
                 <Route path='/brokeveganbreakfast' element={<BrokeVeganBreakfastPage/>} exact/>
                 <Route path='/richveganbreakfast' element={<RichVeganBreakfastPage/>} exact/>
-
+                <Route path='/brokeredbreak' element={<BrokeRedBreakPage/>} exact/>
+                <Route path='/richredbreak' element={<RichRedBreakPage/>} exact/>
+                <Route path='/brokeseabreak' element={<BrokeSeaBreakPage/>} exact/>
+                <Route path='/richseabreakfast' element={<RichSeaBreakPage/>} exact/>
+                <Route path='/brokepoultrybreak' element={<BrokePoultryBreakPage/>} exact/>
+                <Route path='/richpoultrybreak' element={<RichPoultryBreakPage/>} exact/>
+                <Route path='/brokeredlunch' element={<BrokeRedLunchPage/>} exact/>
+                <Route path='/richredlunch' element={<RichRedLunchPage/>} exact/>
+                <Route path='/brokepoultrylunch' element={<BrokePoultryLunchPage/>} exact/>
+                <Route path='/richpoultrylunch' element={<RichPoultryLunchPage/>} exact/>
+                <Route path='/brokesealunch' element={<BrokeSeaLunchPage/>} exact/>
+                <Route path='/richsealunch' element={<RichSeaLunchPage/>} exact/>
+                <Route path='/brokereddinner' element={<BrokeRedDinnerPage/>} exact/>
+                <Route path='/richreddinner' element={<RichRedDinnerPage/>} exact/>
+                <Route path='/brokepoultrydinner' element={<BrokePoultryDinnerPage/>} exact/>
+                <Route path='/richpoultrydinner' element={<RichPoultryDinnerPage/>} exact/>
+                <Route path='/brokeseadinner' element={<BrokeSeaDinnerPage/>} exact/>
+                <Route path='/richseadinner' element={<RichSeaDinnerPage/>} exact/>
             </Routes>
         </Router>
     );
