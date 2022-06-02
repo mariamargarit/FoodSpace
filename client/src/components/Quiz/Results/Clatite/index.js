@@ -1,31 +1,31 @@
 import React from 'react'
 import { Body, Price, ProductCard, ProductContent, ProductDescription, ProductImage, ProductImageWrapper, ProductName, ProductPrice, RestaurantCard, RestaurantContent, RestaurantImage, RestaurantImageWrapper, RestaurantName } from '../SalataCartofi/SCElements'
 
-const Falafel = () => {
+const Clatite = () => {
   return (
     <>
     <Body>
       <RestaurantCard>
         <RestaurantImageWrapper>
-          <RestaurantImage src="https://tazzcdn.akamaized.net/uploads/logo/logo-falafel-king738_1.pngg"/>
+          <RestaurantImage src="https://tazzcdn.akamaized.net/uploads/logo/logo-hrana-reloaded-2-.png"/>
         </RestaurantImageWrapper>
       <RestaurantContent>
-        <RestaurantName>Falafel King</RestaurantName>
+        <RestaurantName>Hrana Pamantului</RestaurantName>
       </RestaurantContent>
       </RestaurantCard>
       <ProductCard>
       <ProductImageWrapper>
-        <ProductImage  src="https://tazzcdn.akamaized.net/uploads/menu/3953/healthy.jpg"/>
+        <ProductImage  src="https://tazzcdn.akamaized.net/uploads/menu/7054/5746076-clatite.6bace71-OXZxVSg.jpg"/>
       </ProductImageWrapper>
       <ProductContent>
         <ProductName>
-        Meniu Healthy
+        Clatite
         </ProductName>
         <ProductDescription>
-        Falafel 150 g, hummus, 120 g, salata 100 g, sos de susan 60 g, de post  430 g 
+        Clatite din faina de naut cu Nuccitella ( facuta de noi ) Gem de fructe de padure si curmale, banane si fructe decorative.
         </ProductDescription>
         <ProductPrice>
-          <Price>32
+          <Price>29
             <sup>00</sup>
             Lei
           </Price>
@@ -37,5 +37,5 @@ const Falafel = () => {
   )
 }
 
-export default Falafel
+export default Clatite
 

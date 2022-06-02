@@ -31,6 +31,18 @@ import SalataGreceascaPage from "./pages/results/salatagreceasca";
 import ApplePiePage from "./pages/results/applepie";
 import AcaiSmoothiePage from "./pages/results/acaismoothie";
 import CauliflowerHummusPage from "./pages/results/cauliflowerhummus";
+import FalalfelPage from "./pages/results/falafel";
+import CiocoVegaPage from "./pages/results/ciocovega";
+import ClatitePage from "./pages/results/clatite";
+import TortPage from "./pages/results/tort";
+import KebabPage from "./pages/results/kebab";
+import ShaormaPage from "./pages/results/shaorma";
+import BurgerVegetarianPage from "./pages/results/burgervegetarian";
+import BurgerVeganPage from "./pages/results/burgervegan";
+import PizzaFunghiPage from "./pages/results/pizzafunghi";
+import VeganBowlPage from "./pages/results/veganbowl";
+import SupaCremaPage from "./pages/results/supacrema";
+import QuesadillaPage from "./pages/results/quesadilla";
 
 //import Navbar from "./components/Navbar";
 
@@ -69,6 +81,18 @@ function App() {
                 <Route path='/applepie' element={<ApplePiePage/>} exact/>
                 <Route path='/acaismoothie' element={<AcaiSmoothiePage/>} exact/>
                 <Route path='/cauliflowerhummus' element={<CauliflowerHummusPage/>} exact/>
+                <Route path='/falafel' element={<FalalfelPage/>} exact/>
+                <Route path='/ciocovega' element={<CiocoVegaPage/>} exact/>
+                <Route path='/clatite' element={<ClatitePage/>} exact/>
+                <Route path='/tort' element={<TortPage/>} exact/>
+                <Route path='/kebabhrisca' element={<KebabPage/>} exact/>
+                <Route path='/shaormavegan' element={<ShaormaPage/>} exact/>
+                <Route path='/burgervegetarian' element={<BurgerVegetarianPage/>} exact/>
+                <Route path='/burgervegan' element={<BurgerVeganPage/>} exact/>
+                <Route path='/pizzafunghi' element={<PizzaFunghiPage/>} exact/>
+                <Route path='/veganbowl' element={<VeganBowlPage/>} exact/>
+                <Route path='/supacrema' element={<SupaCremaPage/>} exact/>
+                <Route path='/quesadilla' element={<QuesadillaPage/>} exact/>
 
             </Routes>
         </Router>
