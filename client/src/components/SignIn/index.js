@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useEffect, useState } from "react";
 import {
     Container,
     Form,
@@ -9,25 +9,36 @@ import {
     FormWrap,
     Text,
     Icon,
-    FormButton
+    FormButton,
 } from "./SignInElements";
+import { Button } from "../ButtonElement";
 import Background from '../../assets/images/restaurant_bg.png'
-import {HeroBg, ImageBg} from "../HeroSection/HeroElements";
-import Axios from 'axios'
-
+import { HeroBg, ImageBg } from "../HeroSection/HeroElements";
+import Axios from "axios";
 
 const SignIn = () => {
+    const [SignInStatus, setSignInStatus] = useState("");
+    const [Redirect, setRedirect] = useState("false");
 
-    const [SignInStatus, setSignInStatus] = useState('');
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
+
+    Axios.defaults.withCredentials = true;
+
+    useEffect(() => {
+        Axios.get("http://localhost:3001/login").then((response) => {
+            if(response.data.loggedIn == true){
+                setSignInStatus(response.data.user[0].username);
+                setRedirect("true");
+            }
+        });
+    }, [])
 
     const login = () => {
-        Axios.post('http://localhost:3001/login', {
+        Axios.post("http://localhost:3001/login", {
             username: username,
             password: password,
         }).then((response) => {
-
             if (response.data.message) {
                 setSignInStatus(response.data.message);
             } else {
@@ -36,34 +47,61 @@ const SignIn = () => {
         });
     };
 
+
     return (
         <>
             <HeroBg>
-                <ImageBg src={Background}/>
+                <ImageBg src={Background} />
             </HeroBg>
             <Container>
                 <FormWrap>
                     <Icon to="/">FoodSpace</Icon>
                     <FormContent>
+                        {Redirect== "false"&&
                         <Form action="#">
                             <FormH1>Sign in to your account</FormH1>
-                            <FormLabel htmlFor='for'>Email</FormLabel>
+                            <FormLabel htmlFor="for">Email</FormLabel>
                             <FormInput
-                                type='email' required
+                                type="email"
+                                required
                                 onChange={(e) => {
                                     setUsername(e.target.value);
                                 }}
                             />
-                            <FormLabel htmlFor='for'>Password</FormLabel>
+                            <FormLabel htmlFor="for">Password</FormLabel>
                             <FormInput
-                                type='password' required
+                                type="password"
+                                required
                                 onChange={(e) => {
                                     setPassword(e.target.value);
                                 }}
                             />
-                            <FormButton onClick={login} type='submit'>Continue</FormButton>
-                            <Text>{SignInStatus}</Text>
-                        </Form>
+                            <FormButton onClick={login} type="submit">
+                                Continue
+                            </FormButton>
+                            {Redirect== "true" &&
+                            <Text>
+                                Hello {SignInStatus}! You are logged in!
+                            </Text>}
+                            {Redirect== "true" &&
+                            <Button
+                                to="/starterquestion"
+                                primary="true"
+                                dark="true"
+                            >Get Started
+                            </Button> }
+                        </Form> }
+                        {Redirect== "true"&&
+                        <Form action="#">
+                            <FormH1>Hello {SignInStatus}! You are logged in!</FormH1>
+                            {Redirect== "true" &&
+                            <Button
+                                to="/starterquestion"
+                                primary="true"
+                                dark="true"
+                            >Get Started
+                            </Button> }
+                        </Form> }
                     </FormContent>
                 </FormWrap>
             </Container>
