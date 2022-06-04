@@ -8,7 +8,7 @@ const BrokeVegetarianLunch = () => {
         <Texth1>Which of these dishes do you prefer?</Texth1>
         <ButtonWrapper>
           <Button1 href="/kebabhrisca">Kebab</Button1>
-          <Button1 href="/sharomavegan" style={{'animation-delay':'0.07s'}}>Sharoma</Button1>
+          <Button1 href="/shaormavegan" style={{'animation-delay':'0.07s'}}>Sharoma</Button1>
           <Button1 href="/salatacartofi" style={{'animation-delay':'0.14s'}}>Salad</Button1>
           <Button1 href="/veganbowl" style={{'animation-delay':'0.21s'}}>Poke Bowl</Button1>
           <Button1 href="/supacrema" style={{'animation-delay':'0.28s'}}>Soup</Button1>

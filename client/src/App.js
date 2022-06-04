@@ -71,6 +71,8 @@ import PizzaFunghiPage from "./pages/results/pizzafunghi";
 import VeganBowlPage from "./pages/results/veganbowl";
 import SupaCremaPage from "./pages/results/supacrema";
 import QuesadillaPage from "./pages/results/quesadilla";
+import BrokeSchnitzelPage from "./pages/results/brokeschnitzel";
+import RichSchnitzelPage from "./pages/results/richschnitzel";
 
 //import Navbar from "./components/Navbar";
 
@@ -153,6 +155,8 @@ function App() {
                 <Route path='/veganbowl' element={<VeganBowlPage/>} exact/>
                 <Route path='/supacrema' element={<SupaCremaPage/>} exact/>
                 <Route path='/quesadilla' element={<QuesadillaPage/>} exact/>
+                <Route path='/bpl4' element={<BrokeSchnitzelPage/>} exact/>
+                <Route path='/rpl4' element={<RichSchnitzelPage/>} exact/>
             </Routes>
         </Router>
     );

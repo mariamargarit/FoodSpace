@@ -15,7 +15,7 @@ export const RestaurantCard = styled.div`
   background-color: #fff;
   border-radius: 20px;
   position: relative;
-  margin-bottom: -300px;
+  margin-bottom: 100px;
   margin-left: 15px;
 `
 
